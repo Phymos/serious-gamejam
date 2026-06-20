@@ -23,6 +23,32 @@ public class Draggable : MonoBehaviour
         rbPlayer = player.GetComponent<Rigidbody2D>();
     }
 
+        void FixedUpdate()
+    {
+        if (!isDragging) return;
+
+        Vector2 mousePos = Mouse.current.position.ReadValue();
+        Vector2 mouseWorld = Camera.main.ScreenToWorldPoint(mousePos);
+
+        Vector2 offset = mouseWorld - (Vector2)player.transform.position;
+
+        if (offset.magnitude > chainLength)
+        {
+            mouseWorld = (Vector2)player.transform.position + offset.normalized * chainLength;
+        }
+
+        Vector2 direction = mouseWorld - rb.position;
+        rb.linearVelocity = direction * dragStr;
+
+        float distanceMoved = Vector2.Distance(rb.position, lastPosition);
+
+        currentSpinSpeed = distanceMoved / Time.fixedDeltaTime;
+
+        Debug.Log("Current Spin Speed: " + currentSpinSpeed);
+        
+        lastPosition = rb.position;
+    }
+
     private void OnMouseDown()
     {
         isDragging = true;
@@ -52,32 +78,6 @@ public class Draggable : MonoBehaviour
         finalThrowForce = Mathf.Clamp(finalThrowForce, dragStr, maxThrowForce);
 
         rb.AddForce(throwDirection * finalThrowForce, ForceMode2D.Impulse);
-    }
-
-    void FixedUpdate()
-    {
-        if (!isDragging) return;
-
-        Vector2 mousePos = Mouse.current.position.ReadValue();
-        Vector2 mouseWorld = Camera.main.ScreenToWorldPoint(mousePos);
-
-        Vector2 offset = mouseWorld - (Vector2)player.transform.position;
-
-        if (offset.magnitude > chainLength)
-        {
-            mouseWorld = (Vector2)player.transform.position + offset.normalized * chainLength;
-        }
-
-        Vector2 direction = mouseWorld - rb.position;
-        rb.linearVelocity = direction * dragStr;
-
-        float distanceMoved = Vector2.Distance(rb.position, lastPosition);
-
-        currentSpinSpeed = distanceMoved / Time.fixedDeltaTime;
-
-        Debug.Log("Current Spin Speed: " + currentSpinSpeed);
-        
-        lastPosition = rb.position;
     }
 
     private void OnDrawGizmos()
