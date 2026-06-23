@@ -5,21 +5,9 @@ public class MovingPlatform : MonoBehaviour
     public Transform pointA;
     public Transform pointB;
     public float speed = 2f;
-    
-    private Rigidbody2D rb;
 
-
-    void Start()
+    void Update()
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    void FixedUpdate()
-    {
-        float rawSin = Mathf.Sin(Time.fixedTime * speed);
-        float progress = (rawSin + 1f) / 2f;
-        
-        Vector2 targetPosition = Vector2.Lerp(pointA.position, pointB.position, progress);
-        rb.MovePosition(targetPosition);
+        transform.position = Vector3.Lerp(pointA.position, pointB.position, Mathf.PingPong(Time.time * speed, 1));
     }
 }

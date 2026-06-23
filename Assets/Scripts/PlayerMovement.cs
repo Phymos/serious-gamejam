@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        Debug.Log(grounded);
+        
         if (inputVector.x != 0)
         {
             if (Mathf.Abs(rb.linearVelocity.x) < maxSpeed)
