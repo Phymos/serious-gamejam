@@ -16,6 +16,12 @@ public class Draggable : MonoBehaviour
     [SerializeField] float minSpinRequired = 10f;
     private Vector2 lastPosition;
     private float currentSpinSpeed;
+
+    public AudioSource audioSource1;
+    public AudioSource audioSource2;
+    public AudioClip collisionClip;
+    public AudioClip chainSound;
+    public AudioClip swingSound;
     
     void Start()
     {
@@ -58,6 +64,19 @@ public class Draggable : MonoBehaviour
         lastPosition = rb.position;
     }
 
+    private void OnMouseDrag()
+    {
+        if (currentSpinSpeed > minSpinRequired)
+        {
+            if (!audioSource2.isPlaying)
+            {
+                audioSource2.clip = swingSound;
+                audioSource2.volume = 0.1f;
+                audioSource2.Play();
+            }
+        }
+    }
+
     private void OnMouseUp()
     {
         isDragging = false;
@@ -71,6 +90,8 @@ public class Draggable : MonoBehaviour
             return;
         }
 
+        audioSource1.PlayOneShot(chainSound, 1.5f);
+
         Vector2 throwDirection = rb.linearVelocity.normalized;
         float spinMagnitude = rb.linearVelocity.magnitude;
 
@@ -78,6 +99,11 @@ public class Draggable : MonoBehaviour
         finalThrowForce = Mathf.Clamp(finalThrowForce, dragStr, maxThrowForce);
 
         rb.AddForce(throwDirection * finalThrowForce, ForceMode2D.Impulse);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        audioSource1.PlayOneShot(collisionClip, 0.2f);
     }
 
     private void OnDrawGizmos()

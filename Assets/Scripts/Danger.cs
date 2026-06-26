@@ -14,7 +14,7 @@ public class Danger : MonoBehaviour
                 playerAudio.PlayOneShot(playerAudio.clip);
             }
 
-            Invoke("RestartScene", 0.3f);
+            Invoke("RestartScene", 0.5f);
         }
     }
 
