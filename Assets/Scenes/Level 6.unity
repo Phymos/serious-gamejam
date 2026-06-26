@@ -212,6 +212,21 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+--- !u!82 &14021847 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6863914143006151844, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+  m_PrefabInstance: {fileID: 14021846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &14021848 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 904787804551098982, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+  m_PrefabInstance: {fileID: 14021846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &14021849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4306094596643824315, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+  m_PrefabInstance: {fileID: 14021846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &37892158
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,6 +473,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &37892165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -934,6 +953,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &123688080
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1226,6 +1249,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &243912040
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1518,6 +1545,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &273232556
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2179,6 +2210,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &291380866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2594,6 +2629,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &338347758
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2886,6 +2925,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &376990288
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3270,6 +3313,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &392627357
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3874,6 +3921,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &517029254
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4171,6 +4222,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &555542339
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4481,6 +4536,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &599068650
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4865,6 +4924,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &710454674
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5157,6 +5220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &717146793
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5974,6 +6041,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1040588084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6357,6 +6428,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1092786923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6925,6 +7000,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1130668162
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10059,6 +10138,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1225100228
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10944,6 +11027,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!19719996 &1321763051
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -41802,6 +41889,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1527008746
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42094,6 +42185,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1542744587
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42386,6 +42481,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1639988055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42862,6 +42961,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1664894572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43338,6 +43441,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1834425367
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47302,6 +47409,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &1890655171
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49416,6 +49527,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &2072982789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49642,7 +49757,7 @@ Transform:
   m_GameObject: {fileID: 2083571135}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46.78943, y: -4.44835, z: -10}
+  m_LocalPosition: {x: -46.78826, y: -4.44835, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49970,6 +50085,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 14021847}
+  player: {fileID: 14021849}
+  spriteRenderer: {fileID: 14021848}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!61 &2144217626
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -3641,6 +3641,16 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &906542775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4306094596643824315, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+  m_PrefabInstance: {fileID: 1448224947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &906542785 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 904787804551098982, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+  m_PrefabInstance: {fileID: 1448224947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1317509519
 GameObject:
   m_ObjectHideFlags: 0
@@ -3798,10 +3808,6 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.y
       value: -0.89349705
       objectReference: {fileID: 0}
-    - target: {fileID: 625641481414104240, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
-      propertyPath: m_Mass
-      value: 0.35
-      objectReference: {fileID: 0}
     - target: {fileID: 1737538454721077888, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: 0.0000011591425
@@ -3809,14 +3815,6 @@ PrefabInstance:
     - target: {fileID: 1737538454721077888, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: -0.9113808
-      objectReference: {fileID: 0}
-    - target: {fileID: 2131485478095771035, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
-      propertyPath: m_Mass
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 4601660160604281309, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
-      propertyPath: m_Mass
-      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5719304892122230646, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3862,10 +3860,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7512974572884877443, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
-      propertyPath: m_Mass
-      value: 0.35
-      objectReference: {fileID: 0}
     - target: {fileID: 7828932180895241719, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: -0.0000009651335
@@ -3873,10 +3867,6 @@ PrefabInstance:
     - target: {fileID: 7828932180895241719, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: -0.91136754
-      objectReference: {fileID: 0}
-    - target: {fileID: 8807076493360684806, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
-      propertyPath: m_Mass
-      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4785,6 +4775,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
   playerAudio: {fileID: 503709120}
+  player: {fileID: 906542775}
+  spriteRenderer: {fileID: 906542785}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!19719996 &1636834213
 TilemapCollider2D:
   m_ObjectHideFlags: 0

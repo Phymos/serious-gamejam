@@ -21608,6 +21608,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4062b719f093f48499b42d718787809d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Danger
+  playerAudio: {fileID: 1961149307}
+  player: {fileID: 1961149308}
+  spriteRenderer: {fileID: 1961149309}
+  deathSprite: {fileID: 21300000, guid: 2c9396c665e0c09409be10b65fd04680, type: 3}
 --- !u!19719996 &1199218201
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -21674,6 +21678,10 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.y
       value: -1.0816337
       objectReference: {fileID: 0}
+    - target: {fileID: 5432047615593617811, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+      propertyPath: m_Mass
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 5719304892122230646, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.67
@@ -21734,6 +21742,21 @@ PrefabInstance:
 --- !u!4 &1961149306 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7813524625881497552, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+  m_PrefabInstance: {fileID: 1961149305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1961149307 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6863914143006151844, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+  m_PrefabInstance: {fileID: 1961149305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1961149308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4306094596643824315, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
+  m_PrefabInstance: {fileID: 1961149305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1961149309 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 904787804551098982, guid: 6d7c37d0cd73a2d42a5984447a4283f2, type: 3}
   m_PrefabInstance: {fileID: 1961149305}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2063664061
@@ -21824,7 +21847,7 @@ Transform:
   m_GameObject: {fileID: 2063664061}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.704712, y: -7.51148, z: -10}
+  m_LocalPosition: {x: 3.7069902, y: -7.51148, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
