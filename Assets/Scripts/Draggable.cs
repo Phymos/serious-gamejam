@@ -62,6 +62,7 @@ public class Draggable : MonoBehaviour
         rbPlayer.bodyType = RigidbodyType2D.Kinematic;
 
         lastPosition = rb.position;
+        Debug.Log("holding" + gameObject.name);
     }
 
     private void OnMouseDrag()
