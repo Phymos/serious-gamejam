@@ -387,6 +387,7 @@ GameObject:
   - component: {fileID: 4198147858067932422}
   - component: {fileID: 3042790951872978865}
   - component: {fileID: 3690486329424983808}
+  - component: {fileID: 2446326381620064031}
   m_Layer: 3
   m_Name: karakter_01
   m_TagString: Player
@@ -548,6 +549,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 1448ffcd-c53d-4218-9bb9-ce889b1c5858
     m_ActionName: 'Player/Jump[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2446326381620064031}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: OnRestartLevel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: e1825934-6eaa-49ce-b80d-c91248888426
+    m_ActionName: 'Player/RestartLevel[/Keyboard/r]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -670,6 +687,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHover
   hoverForce: 6
+--- !u!114 &2446326381620064031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306094596643824315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5316ac92240e8474ca8423c082b44d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
 --- !u!1 &6078501365537679243
 GameObject:
   m_ObjectHideFlags: 0
