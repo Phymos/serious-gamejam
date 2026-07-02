@@ -84,13 +84,6 @@ public class Draggable : MonoBehaviour
         rbPlayer.constraints = RigidbodyConstraints2D.None;
         rbPlayer.bodyType = RigidbodyType2D.Dynamic;
 
-        if (currentSpinSpeed < minSpinRequired)
-        {
-            rb.linearVelocity *= 0.15f;
-            Debug.Log("Yeterince dönmedi");
-            return;
-        }
-
         audioSource1.PlayOneShot(chainSound, 1.5f);
 
         Vector2 throwDirection = rb.linearVelocity.normalized;

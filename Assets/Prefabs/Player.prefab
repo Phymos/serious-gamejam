@@ -107,10 +107,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.35
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_Mass: 0.2
+  m_LinearDamping: 1
+  m_AngularDamping: 2
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -138,7 +138,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.0000010019706, y: -0.91136885}
+  m_ConnectedAnchor: {x: -0.00000020868613, y: -0.91136867}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -146,8 +146,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -20
-    m_UpperAngle: 20
+    m_LowerAngle: -35
+    m_UpperAngle: 32
 --- !u!70 &8447094435077744915
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -292,10 +292,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.35
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_Mass: 0.2
+  m_LinearDamping: 1
+  m_AngularDamping: 2
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -323,7 +323,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.0000011787889, y: -0.91138023}
+  m_ConnectedAnchor: {x: 0.0000015114549, y: -0.91138065}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -331,8 +331,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -20
-    m_UpperAngle: 20
+    m_LowerAngle: -35
+    m_UpperAngle: 32
 --- !u!70 &1564932733281406237
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -599,7 +599,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 1.5
   m_Material: {fileID: 0}
@@ -611,7 +611,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!233 &4198147858067932422
 HingeJoint2D:
@@ -629,16 +629,16 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.049768668, y: -1.0872463}
+  m_ConnectedAnchor: {x: 0.049767323, y: -1.0872463}
   m_UseConnectedAnchor: 1
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 1
+    m_MaximumMotorForce: 10
+  m_UseLimits: 0
   m_AngleLimits:
-    m_LowerAngle: -20
-    m_UpperAngle: 20
+    m_LowerAngle: -35
+    m_UpperAngle: 35
 --- !u!58 &3042790951872978865
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1d0c87654455194488b18c91ed38644, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHover
-  hoverForce: 6
+  hoverForce: 0
 --- !u!114 &2446326381620064031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,10 +904,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.35
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_Mass: 0.2
+  m_LinearDamping: 1
+  m_AngularDamping: 2
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -935,7 +935,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.008897828, y: -0.8934965}
+  m_ConnectedAnchor: {x: 0.008898398, y: -0.89349645}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -943,8 +943,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -20
-    m_UpperAngle: 20
+    m_LowerAngle: -35
+    m_UpperAngle: 32
 --- !u!70 &6427098091481278059
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1089,10 +1089,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.35
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_Mass: 0.2
+  m_LinearDamping: 1
+  m_AngularDamping: 2
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1120,7 +1120,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.00000029715306, y: -0.8870519}
+  m_ConnectedAnchor: {x: -0.00000021476437, y: -0.88705176}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -1128,8 +1128,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -20
-    m_UpperAngle: 20
+    m_LowerAngle: -35
+    m_UpperAngle: 32
 --- !u!70 &5469304014484468353
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1193,7 +1193,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.93753, y: 3.14919, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2121, y: 1.2121, z: 1.2121}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4123305054127543959}
@@ -1312,10 +1312,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.35
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_Mass: 0.2
+  m_LinearDamping: 1
+  m_AngularDamping: 2
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1343,7 +1343,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.00000266701, y: -0.9113827}
+  m_ConnectedAnchor: {x: -0.000002698737, y: -0.9113826}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -1351,8 +1351,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -20
-    m_UpperAngle: 20
+    m_LowerAngle: -35
+    m_UpperAngle: 32
 --- !u!70 &6803625678117350821
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1499,9 +1499,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 20
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 10
+  m_LinearDamping: 0.1
+  m_AngularDamping: 2
   m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1548,8 +1548,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Offset: {x: 0.0131315105, y: 0.035822235}
+  m_Radius: 0.7292382
 --- !u!114 &5529657812944972286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1563,9 +1563,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Draggable
   player: {fileID: 4306094596643824315}
-  chainLength: 3
-  dragStr: 5
-  throwForceMultiplier: 2
+  chainLength: 3.2
+  dragStr: 6
+  throwForceMultiplier: 1
   maxThrowForce: 50
   minSpinRequired: 10
   audioSource1: {fileID: 5273143942582051446}
