@@ -14,6 +14,3 @@ A 2D physics-platformer game developed for **The Very Serious Juniper Dev Game J
 - **Engine:** Unity
 - **Language:** C#
 - **Art/Audio:** 2D pixel pipeline, custom SFX integration
-
-## Preview
-![Chain Bound Screenshot](screenshot.png)
