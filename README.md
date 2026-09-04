@@ -40,6 +40,7 @@ Out of **3,504 submissions** and ~69.5k community ratings:
 
 ## Project Structure
 
+```text
 chain-bound/
 ├── Assets/
 │   ├── Scripts/               # Player movement, momentum & restart logic
@@ -52,6 +53,7 @@ chain-bound/
 │   ├── TextMesh Pro/          # UI typography assets
 │   └── Input.inputactions     # Input system bindings
 └── ProjectSettings/
+```
 
 
 ---
