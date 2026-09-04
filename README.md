@@ -1,16 +1,61 @@
 # Chain Bound
 
-A 2D physics-platformer game developed for **The Very Serious Juniper Dev Game Jam**.
+A 2D physics-platformer game built with Unity for **The Very Serious Juniper Dev Game Jam**. 
 
-* **itch.io Page:** [Chain Bound on itch.io][(https://phymoss.itch.io/](https://itch.io/jam/theveryseriousjuniperdevgamejam/rate/4718852))
-* **Jam Results:** Ranked **#542** in *Creativity & Theme* and **#1105** *Overall* among **3,504 entries** (~69.5k community ratings).
+Spin and launch a heavy ball chained to a blue spirit to navigate lethal dungeon hazards and find the escape.
 
-## Gameplay & Mechanics
-- **Physics-Driven Movement:** Dynamic momentum, spin, and launch mechanics utilizing 2D physics constraints to traverse hazards.
-- **Trap & Collision Systems:** Precise collision masks, impulse-based force application, and environmental triggers.
-- **Pacing & Polish:** Compact level design structured around quick retry loops.
+---
+
+## Jam Results & Recognition
+
+Out of **3,504 submissions** and ~69.5k community ratings:
+- **Creativity & Theme:** Ranked **#542** (Score: 3.887)
+- **Visuals:** Ranked **#860** (Score: 3.613)
+- **Overall Placement:** Ranked **#1105** (Score: 3.300)
+
+**Playable Web / Download:** [Chain Bound on itch.io](https://phymoss.itch.io/)
+
+---
+
+## Core Mechanics & Features
+
+- **2D Physics-Driven Locomotion:** Movement and jumping rely on angular momentum, inertia, and 2D physics constraints attached to a heavy chained ball.
+- **Precision Hazard Navigation:** Obstacle-heavy dungeon layouts designed around fast reflexes, impulse redirection, and instant restart loops.
+- **Tilemap Collision Systems:** Layered 2D environments combining grid-aligned hazard triggers with dynamic physical materials (`Platform.physicsMaterial2D`).
+- **Input System:** Modern Unity Input System implementation (`Input.inputactions`) handling responsive directional commands and momentum release.
+
+---
 
 ## Tech Stack
-- **Engine:** Unity
-- **Language:** C#
-- **Art/Audio:** 2D pixel pipeline, custom SFX integration
+
+| Layer          | Technology                                   |
+|----------------|----------------------------------------------|
+| Engine         | Unity                                        |
+| Language       | C#                                           |
+| Physics        | Unity 2D Physics Engine (Rigidbodies, Joints)|
+| Input          | Unity New Input System                       |
+| Environment    | 2D Tilemap Systems                           |
+
+---
+
+## Project Structure
+
+chain-bound/
+├── Assets/
+│   ├── Scripts/               # Player movement, momentum & restart logic
+│   ├── Prefabs/               # Traps, dungeon props & dynamic objects
+│   ├── Scenes/                # Level layouts & gameplay flow
+│   ├── Tilemaps/              # Environment tiles & collision meshes
+│   ├── My Assets/             # Custom sprites, textures & audio files
+│   ├── Imported Assets/       # Utility packages & external assets
+│   ├── Settings/              # Render pipeline & project configurations
+│   ├── TextMesh Pro/          # UI typography assets
+│   └── Input.inputactions     # Input system bindings
+└── ProjectSettings/
+
+
+---
+
+## Preview
+
+![Chain Bound Screenshot]<img width="315" height="250" alt="dQ9hmt" src="https://github.com/user-attachments/assets/6ffba781-176b-49fd-b760-2fe60619f803" />
