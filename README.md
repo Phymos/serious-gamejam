@@ -58,4 +58,5 @@ chain-bound/
 
 ## Preview
 
-![Chain Bound Screenshot]<img width="315" height="250" alt="dQ9hmt" src="https://github.com/user-attachments/assets/6ffba781-176b-49fd-b760-2fe60619f803" />
+<img width="315" height="250" alt="dQ9hmt" src="https://github.com/user-attachments/assets/6ffba781-176b-49fd-b760-2fe60619f803" />  <img width="1732" height="731" alt="t0sRRP" src="https://github.com/user-attachments/assets/fccec129-7773-44fe-b58a-9160879d3652" />
+
