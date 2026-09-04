@@ -1,8 +1,8 @@
 # Chain Bound
 
-A 2D physics-puzzle action game developed for **The Very Serious Juniper Dev Game Jam**.
+A 2D physics-platformer game developed for **The Very Serious Juniper Dev Game Jam**.
 
-* **itch.io Page:** [Chain Bound on itch.io](https://phymoss.itch.io/) *(Kendi linkini ekle)*
+* **itch.io Page:** [Chain Bound on itch.io][(https://phymoss.itch.io/](https://itch.io/jam/theveryseriousjuniperdevgamejam/rate/4718852))
 * **Jam Results:** Ranked **#542** in *Creativity & Theme* and **#1105** *Overall* among **3,504 entries** (~69.5k community ratings).
 
 ## Gameplay & Mechanics
